@@ -36,14 +36,7 @@ def test_ex_3():
 
 def test_ex_4():
     import exercicio_4
-    pessoa = {"nome": "José", "salario_fixo": 3}
-    assert exercicio_4.calcular_salario(pessoa) == {"nome": "José", "salario_fixo": 3, "salario_total": 3}
-    pessoa = {"nome": "Michel", "salario_fixo": 0, "salario_variavel": 100}
-    assert exercicio_4.calcular_salario(pessoa) == {"nome": "Michel", "salario_fixo": 0, "salario_variavel": 100, "salario_total": 100}
 
-def test_ex_5():
-    import exercicio_5
-
-    assert exercicio_5.filtrar_lista_por_numeros_primos([10, 11, 50, 13, 99, 7]) == [11, 13, 7]
-    assert exercicio_5.filtrar_lista_por_numeros_primos([2, 3, 4, 5]) == [2, 3, 5]
+    assert exercicio_4.filtrar_lista_por_numeros_primos([10, 11, 50, 13, 99, 7]) == [11, 13, 7]
+    assert exercicio_4.filtrar_lista_por_numeros_primos([2, 3, 4, 5]) == [2, 3, 5]
 
