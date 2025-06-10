@@ -1,5 +1,5 @@
 """
-Exercicio 5 - Usando funcoes
+Exercicio 4 - Usando funcoes
 
 Você vai escrever uma funcao que recebe uma lista com números e deve retornar uma outra lista
 só com os números primos.
